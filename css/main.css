@@ -1,0 +1,28 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  margin: 50px;
+}
+h3 {
+  font-size: 1.5em;
+}
+header span:before {
+  content: "/";
+  font-size: 20px;
+  margin: 10px;
+}
+ header h3:after {
+   content: "";
+  position: absolute;
+  height: 5px;
+  border-bottom: 10px solid black;
+  top: 54px;
+  width: 1080px;
+
+ }
+ header h3 span:after {
+   content: "";
+   border: solid 10px white;
+ }

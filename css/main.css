@@ -13,7 +13,7 @@ header span:before {
   font-size: 20px;
   margin: 10px;
 }
- header h3:after {
+ header h3:after {  /* black line after date */
    content: "";
   position: absolute;
   height: 5px;
@@ -22,7 +22,19 @@ header span:before {
   width: 1080px;
 
  }
- header h3 span:after {
+ header h3 span:after {  /* white space between date and line */
    content: "";
    border: solid 10px white;
+ }
+ h2 {
+  font: url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
+  font-family: 'Fredericka the Great', cursive;
+  font-size: 3em;
+  margin-left: 90px;
+  margin-bottom: 10px;
+ }
+ .america {
+   font-style: italic;
+   font-family: sans-serif;
+   margin-left: 90px;
  }

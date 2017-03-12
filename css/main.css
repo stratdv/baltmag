@@ -1,36 +1,49 @@
-body {
+
+
+/* reset some basic elements */
+body, h1, h2, h3, h4, h5, h6, p,
+blockquote, pre, hr, dl, dd, ol, ul, figure, {
   margin: 0;
   padding: 0;
 }
+
 body {
-  margin: 50px;
+  margin: 50px auto;
+  width: 80%;
 }
 article p {
   font-family: sans-serif;
 }
-
+header {
+  overflow: hidden;
 }
-h3 {
+
+header h3 {
   font-size: 1.5em;
 }
+
 header span:before {
   content: "/";
   font-size: 20px;
   margin: 10px;
 }
- header h3:after {  /* black line after date */
+
+ header span:after {  /* black line after date */
    content: "";
   position: absolute;
   height: 5px;
-  border-bottom: 10px solid black;
-  top: 54px;
-  width: 1080px;
+  border-top: 5px solid black;
+  margin-left: 5px;
+  width: 9999px;
+  top: 13px;
+}
 
- }
- header h3 span:after {  /* white space between date and line */
-   content: "";
-   border: solid 10px white;
- }
+header span {
+color: teal;
+font-weight: 100;
+position: relative;
+}
+
  h2 {
   font: url(https://fonts.googleapis.com/css?family=Fredericka+the+Great);
   font-family: 'Fredericka the Great', cursive;
@@ -121,3 +134,17 @@ article h5 {
    position: relative;
    margin-top: -60px;
  }
+ .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+img {
+  width: 50%;
+  height: auto;
+}
